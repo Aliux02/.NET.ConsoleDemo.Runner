@@ -9,9 +9,7 @@ namespace ConsoleDemo
         {
             var firstNumber = 0;
             var secondtNumber = 0;
-            //var operator = 0;
-
-
+            
             var input = Console.ReadLine();
 
             var values = input.Split(' ');
@@ -50,23 +48,7 @@ namespace ConsoleDemo
                     Console.WriteLine("Something went wrong");
                     break;
                     
-        }
-
-
-
-            //int number;
-            //Console.WriteLine(words);
-
-            //var succeded = Int32.TryParse(input, out number);
-
-            //if(succeded == true)
-            //{
-            //    Console.WriteLine($"Input was multiplied by 2 {number*2}");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Error while parsing");
-            //}
+            }
         }
     }
 }
